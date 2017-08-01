@@ -7,6 +7,8 @@ The project uses [Midje](https://github.com/marick/Midje/) for testing.
 
 ### Setup
 
+* Make sure you have [java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
+
 * Install clojure using [Homebrew](https://brew.sh) and use it to install clojure
 
     ``brew install clojure``
@@ -18,6 +20,13 @@ The project uses [Midje](https://github.com/marick/Midje/) for testing.
 * Add this to your ``~/.lein/profiles.clj`` file:
 
     ``{:user {:plugins [[lein-midje "3.1.3"]]}}``
+
+* If you use IntelliJ IDE download [Cursive](https://cursive-ide.com/) and set the keymap bindings. 
+
+* If you are using Atom, check out these helpful packages to help set up a clojure work environment:
+    * [Parinfer](https://atom.io/packages/parinfer)
+    * [Photo REPL](https://atom.io/packages/proto-repl)
+    * [Lisp-paredit](https://atom.io/packages/lisp-paredit)
 
 ## How to run tests
 
